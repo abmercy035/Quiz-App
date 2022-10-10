@@ -104,7 +104,7 @@ export default function Quest({mainCourse, Course, send, IncArr, DecArr, Arr, ti
            {"submit"}
          </button>
          {/*  displaying forward button when  */}
-         {quest > 4 /*main.length*/ ? "" : <Forward func={nextQuest} />}
+         {quest > main.length-1 ? "" : <Forward func={nextQuest} />}
        </div>
      </div>
   )

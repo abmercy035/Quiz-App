@@ -3,8 +3,6 @@
 export default function Option({ Value, Decourse, func , url}) {
   var num = Number(Value) - 1;
 
-  console.log(url)
-
   return url[num].opt.map((s, i) => {
     const alpha = ["a .", "b .", "c .", "d ."];
     return (

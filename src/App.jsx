@@ -34,9 +34,6 @@ export default function App() {
   }, [Url])
   
 
-  setTimeout(()=>console.log(Course), 2000)
-
-
    const [level, setLevel] = useState(100),
     [mainTime, setTime] = useState("30 mins"),
     [mainName, setName] = useState(""),

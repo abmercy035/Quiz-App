@@ -46,7 +46,7 @@ export default function Result({ click, Course, Level, Name, Time, Grade }) {
           <br />
           <span> Passed : </span> <b>{Grade}</b>
           <br />
-          <span> Failed : </span> <b> {50 - Grade}</b>
+          <span> Failed : </span> <b> {10 - Grade}</b>
           <br />
           <span> Status : </span>{" "}
           <b>
