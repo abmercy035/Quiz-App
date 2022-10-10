@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "json-server --watch data/db.json --port 8000",
+    "dev": "json-server --watch data/db.json --port 8000",
     "eject": "react-scripts eject",
     "test": "react-scripts test"
   },
