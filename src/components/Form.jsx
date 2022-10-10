@@ -38,6 +38,7 @@ export default function Form({
       else if (e.target.value === "200") setLevel("levelTwo");
       levelHandler(e.target.value);
     },
+    
     selectCourse = (e) => courseHandler(e.target.value),
     selectTime = (e) => {
       var time = 0;

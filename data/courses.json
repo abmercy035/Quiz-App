@@ -2,33 +2,32 @@
  "one": [
   {
   "levelTwo": [
-   "Math102",
+   "Math101",
    "Math171",
-   "Chem102",
-   "Bio102",
+   "Chem101",
+   "Bio101",
+   "Phy101",
    "Phy102",
-   "Phy104",
-   "Phy106",
-   "Bot102",
-   "Zoo102",
-   "Gns102",
-   "Csc112",
-   "Csc102"
+   "Phy103",
+   "Bot101",
+   "Zoo101",
+   "Gns101",
+   "Csc111",
+   "Csc101"
   ],
   "levelOne": [
    "Math101",
-   "Math162",
-   "Math172",
-   "Chem102",
-   "Bio102",
-   "csc102",
-   "Phy104",
-   "Phy106",
-   "Bot102",
-   "Zoo102",
-   "Gns102",
-   "csc112",
-   "csc102"
+   "Math171",
+   "Chem101",
+   "Bio101",
+   "csc101",
+   "Phy102",
+   "Phy103",
+   "Bot101",
+   "Zoo101",
+   "Gns101",
+   "csc111",
+   "csc101"
   ]
    }]
 }

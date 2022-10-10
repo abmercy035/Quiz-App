@@ -11,7 +11,7 @@ import NotFound from "./components/NotFound";
 import Admin from "./components/Admin";
 
 export default function App() {
-  const [mainCourse, setmainCourse] = useState("Phy104"),
+  const [mainCourse, setmainCourse] = useState(""),
    Url =  `http://localhost:8000/${mainCourse}`,
   
   [Course, setCourse] = useState("");
