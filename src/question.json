@@ -1,0 +1,72 @@
+{
+ "courses" : { 
+    "Phy104": [{
+      "No": "1",
+      "question": "Which of the following equations is effective in calculating magnetic field strength",
+      "opt": ["μoI/2π", "μoI/2πr", "μoI/πr^2", "μoI/2πr^2"],
+      "ans": "μoI/πr^2"
+    },
+
+    {
+      "No": "2",
+      "question": "Which of the formulae defines KCL where i1,i2 are incoming currents and i3,i4 are outgoing currents from a node in a circuit?",
+      "opt": ["i1 + i3=i2 + i4", "i1 + i2=i3 + i4", "i1 + i2 + i3 + i4=0", "i1 − i3=i2 − i4"],
+      "ans": "i1 − i3=i2 − i4"
+    },
+    {
+      "No": "3",
+      "question": "Which statement is true about a proton and an electron?",
+      "opt": [
+        "They have different masses and the same charges.",
+        "They have different masses and different charges.",
+        "They have the same masses and same charges",
+        "They have the same masses and different charges"
+      ],
+      "ans": "They have the same masses and different charges"
+    },
+    {
+      "No": "4",
+      "question": "If ∇=i^∂∂x + i^∂∂y + i^∂∂z and r⃗ =i^x + j^y + k^z Evaluate divergent of r⃗  , ∇∙r⃗",
+      "opt": ["3", "0", "1", "null"],
+      "ans": "1"
+    },
+    {
+      "No": "5",
+      "question": "If a current of 3A is divided by an 8 ohms and 4 ohms resistor, what is the value of the current flowing through the 4 ohm resistor?",
+      "opt": ["3A", "1A", "2A", "1.5A"],
+      "ans": "1.5A"
+    },
+    {
+      "No": "6",
+      "question": "Which statement best describes electrons?",
+      "opt": ["They are negative subatomic particles and are found in the nucleus.", "They are negative subatomic particles and are found surrounding the nucleus.", "They are positive subatomic particles and are found in the nucleus.", "They are positive subatomic particles and are found surrounding the nucleus."],
+      "ans": "They are negative subatomic particles and are found surrounding the nucleus."
+    },
+    {
+      "No": "7",
+      "question": "If ∇=r^∂∂r and r⃗ =r^r Evaluate divergent, ∇∙v⃗ =1r2∂∂r(r2vr),wherevr=r",
+      "opt": ["1", "0", "3", "null"],
+      "ans": "0"
+    },
+    {
+      "No": "8",
+      "question": "The determinant of three linear vectors is:",
+      "opt": ["zero if the vectors are linearly independent", "non-zero if the vectors are linearly dependent", "zero if the vectors are of different magnitude", "non-zero if the vectors are linearly independent"],
+      "ans": "non-zero if the vectors are linearly independent"
+    },
+    {
+      "No": "9",
+      "question": "If a⃗ =i^a1 + j^a2 + k^a3 and b⃗ =i^b1 + j^b2 + k^b3 Evaluate vector product, a⃗ ∧b⃗ ",
+      "opt": ["i(a2b3 − a3b2) − j(a1b3 − a3b1) + k(a1b2 − a2b1)", "i(a2b3 − a3b2) − j(a1b3 − a3b1) + k(a3b2 − a2b3)", "i(a2b3 − a3b2) + j(a1b3 − a3b1) − k(a1b2 − a2b1)", "i(a2b3 − a3b2) − j(a1b3 − a2b3) + k(a1b2 − a2b1)"],
+      "ans": "i(a2b3 − a3b2) − j(a1b3 − a2b3) + k(a1b2 − a2b1)"
+    },
+    {
+      "No": "10",
+      "question": "If a⃗ =i^a1+j^a2+k^a3 and b⃗ =i^b1+j^b2+k^b3 Evaluate scalar product, a⃗ ∙b⃗",
+      "opt": ["a1b2 + a2b3 + a3b1", "1A", "2A", "1.5A"],
+      "ans": "1.5A"
+    }
+  ]
+}
+
+}

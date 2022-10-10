@@ -1,0 +1,90 @@
+/** @format */
+.admin-cont,
+  .admin-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+ }
+
+#admin-nav {
+  color: red;
+  padding: 10px 0 0 20px;
+  pointer-events:stroke;
+}
+.admin-cont {
+ width: 80%;
+ padding: auto;
+}
+
+label{
+ color: white;
+ font-size: 16px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-variant-caps: all-petite-caps;
+}
+
+#admin-info-text {
+ color:white;
+ text-align: center;
+ font-variant-caps: small-caps;
+ font-size: small;
+ font-family:cursive ;
+}
+span{
+ color:gold;
+ opacity: 80%;
+ text-align: center;
+ font-variant-caps: small-caps;
+}
+
+form{
+  width: 90%;
+  gap: 40px;
+  display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 10px;
+    gap: 10px;
+  }
+
+.admin-textarea{
+ width: 80%;
+ height: 65px;
+ border:none;
+ display: block;
+ margin:10px auto;
+ padding: 0 10px;
+ font-size: 16px;
+ font-weight: bolder;
+ padding:0  10px;
+ text-indent: 3%;
+}
+.admin-input{
+ width: 80%;
+ height: 30px;
+ border:none;
+ border-radius: 4px;
+ display: block;
+ margin:1px auto;
+ padding: 0 5px;
+ font-size: 13px;
+ font-weight: bold;
+ text-indent: 3%;
+}
+::placeholder{
+  font-size: 16px;
+  padding: 10px;
+  opacity: 80%;
+}
+
+ #admin-btn{
+   width: 40%;
+   font-size: 18px;
+   color: black;
+   background-color: gold;
+   border: 1px red solid;
+  font-weight: 600;
+}
+ 
